@@ -1,4 +1,7 @@
-﻿--9- Selezionare tutti i dati dei videogiochi rilasciati nell'anno 2020 (46)
+﻿--10- Selezionare gli id dei videogame che hanno ricevuto almeno una recensione da stelle, mostrandoli una sola volta (443)
+
+
+--9- Selezionare tutti i dati dei videogiochi rilasciati nell'anno 2020 (46)
 SELECT *
 FROM videogames
 WHERE YEAR(release_date) = 2020;
